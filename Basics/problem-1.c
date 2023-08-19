@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    printf("Hello World!");
+    // Basic print operation
+    printf("Software Engineering");
 
     return 0;
 }
