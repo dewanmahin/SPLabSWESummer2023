@@ -5,8 +5,8 @@ int main()
     scanf("%d", &days);
 
     int years = days/365; // years = 1
-    int months = (days%365)/30; // months = 7
-    int remainingDays = (days%365)%30; // remainingDays = 6
+    int months = (days%365)/30; // months = 1
+    int remainingDays = (days%365)%30; // remainingDays = 25
 
     printf("Years: %d\n", years);
     printf("Months: %d\n", months);
