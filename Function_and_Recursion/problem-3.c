@@ -20,7 +20,7 @@ int main()
 {
     int x, y;
     scanf("%d %d", &x, &y);
-    // calling functions for all arithmetic operations
+    // calling functions for all arithmetic operation
     int addition = numAddition(x, y);
     int subtraction = numSubtraction(x, y);
     int multiplication = numMultiplication(x, y);
