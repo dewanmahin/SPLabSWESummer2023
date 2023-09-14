@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // find largest number using conditional
     int x,y,z;
     scanf("%d %d %d", &x, &y, &z);
 
