@@ -51,7 +51,7 @@ int main()
     int n, s, k;
     scanf("%d", &n);
     s=0;
-    k=(2*n)-1;
+    k=n;
     for(int i=1; i<=n; i++){
         for(int j=0; j<=s; j++){
             if(j!=0){
@@ -59,10 +59,10 @@ int main()
             }
         }
         for(int j=k; j>=1; j--){
-            printf("*");
+            printf("* ");
         }
         s++;
-        k-=2;
+        k--;
         printf("\n");
     }
 
