@@ -1,3 +1,5 @@
+.vscode
+
 **/Basics/*.exe
 **/Basics/*.txt
 **/Function_and_Recursion/*.exe
@@ -10,3 +12,7 @@
 **/String/*.txt
 **/Array/*.exe
 **/Array/*.txt
+**/Pointers/*.exe
+**/Pointers/*.txt
+**/Structure/*.exe
+**/Structure/*.txt
